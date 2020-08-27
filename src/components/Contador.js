@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 
 /*
 si quiero que no me aparesca el div, podria
-invocar el fragment en el {useState, fragment} y fragment
+invocar el fragment en el {useState, Fragment} y fragment
 seria la etiqueta padre
 */
 
