@@ -20,7 +20,7 @@ const Lista = () => {
     return (
         <Fragment>
           <h2>mostrando lista</h2>
-          <button onClick={aumentarArray}>arreglo ++</button>
+          <button onClick={aumentarArray}>arreglo</button>
             {
              arrayNumeros.map((items, index)=>
                 <p key={index}>{items} - {index}</p>
